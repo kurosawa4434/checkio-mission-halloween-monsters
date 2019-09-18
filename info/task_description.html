@@ -1,0 +1,68 @@
+
+<p>
+    You have to call monsters from another world in preparation for Halloween.
+</p>
+
+
+<p>
+    You are given a string as input value.
+You have to use this to make monster names and return the maximum number.
+You can call only 9 kinds of monsters:
+</p>
+
+<ul>
+    <li>frankenstein</li>
+    <li>ghost</li>
+    <li>jack</li>
+    <li>mummy</li>
+    <li>skeleton</li>
+    <li>vampire</li>
+    <li>werewolf</li>
+    <li>witch</li>
+    <li>zombie</li>
+</ul>
+
+
+<strong>NOTE:</strong>
+<ul>
+    <li>You may make multiple monster names of the same kind.</li>
+    <li>You don't need to use all characters.</li>
+    <li>if you can't make a monster name, returns 0.</li>
+</ul>
+
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Example:</strong>
+    </p>
+<!-- Do NOT change the indentation of this pre-block -->
+<pre class="brush: python">halloween_monsters('tkjagchso') == 2               # jack, ghost
+halloween_monsters('finhtiistchwwaerecnnkt') == 3  # witch, witch, frankenstein
+</pre>
+<!-- pre-block end -->
+    <p style="text-align: center;">
+    </p>
+</div>
+
+<p>
+    <strong>Input: </strong>
+    The spell (a string).
+</p>
+
+<p>
+    <strong>Output: </strong>
+    A number of monsters (a integer).
+</p>
+
+<p>
+    <strong>Precondition:</strong>
+</p>
+<ul>
+    <li>all(re.fullmatch('[a-z]', i) for i in input)</li>
+    <li>len(input) &le; 100</li>
+</ul>
+<p>
+    <strong>How it is used:</strong>
+    For calculate materials and products.
+</p>
