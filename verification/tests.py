@@ -56,5 +56,12 @@ TESTS = {
             'explanation': ['vampire', 'vampire'],
         },
     ],
+    "Extra": [
+        {
+            'input': "jqfbjivldrcuuapmnvjuhwgozsfsnwualqbnsxrrbvwfzxnpmekafwxhgkxtebtyclqhqmitzhgzkmcyecdpoyddetokip",
+            'answer': 9,
+            'explanation': ['jack', 'jack', 'ghost', 'ghost', 'vampire', 'witch', 'witch', 'mummy', 'werewolf'],
+        },
+    ],
     "Randoms": make_random_tests(10),
 }
